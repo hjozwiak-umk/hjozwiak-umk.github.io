@@ -1,0 +1,70 @@
+/* Definition lists (CV sections) */
+dl { margin-top: .25rem; }
+dt { font-weight: 600; margin-top: .5rem; }
+dd { margin: .2rem 0 1rem 0; }
+
+/* Bibliography spacing & readability on CV */
+#refs { margin-bottom: 1rem; }               /* space before the “See the …” line */
+#refs .csl-entry { margin-bottom: .35rem; }  /* a touch of space between entries */
+
+
+/* 3) Research area cards – padding, spacing, nicer wrapping */
+.home-cards .card {
+  padding: 1rem 1.1rem !important;
+  border-radius: 12px !important;
+  border: 1px solid var(--quarto-border-color, #d0d7de) !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,.04) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  min-height: 190px;
+  word-break: normal;           /* don’t split inside words */
+  overflow-wrap: break-word;    /* wrap long words sensibly */
+}
+.home-cards { row-gap: 1rem; }
+.home-cards .card h3,
+.home-cards .card h2,
+.home-cards .card h4 { margin: 0 0 .45rem 0; hyphens: none; }
+.home-cards .card p { margin: 0 0 .7rem 0; }
+.home-cards .card a {
+  display: block; /* Add this line */
+  margin-top: auto;
+  font-weight: 600;
+}
+
+/* Optional: gently lift on hover */
+.home-cards .card:hover { transform: translateY(-2px); transition: transform .12s ease; }
+
+
+/* Make the sidebar logo a perfect circle */
+#quarto-sidebar .sidebar-logo {
+  width: 160px;          /* set equal width & height */
+  height: 160px;
+  object-fit: cover;     /* crop to fill the circle */
+  object-position: center 12%; /* nudge up/down; adjust % to taste */
+  border-radius: 50%;
+  border: 3px solid #dee2e6;
+  padding: 3px;
+  display: block;
+  margin: .25rem auto 1rem;
+}
+
+/* smaller on narrow screens */
+@media (max-width: 992px) {
+  #quarto-sidebar .sidebar-logo { width: 120px; height: 120px; }
+}
+
+/* Make Bootstrap .badge text visible and keep it “pill + border” */
+a.badge {
+    --bs-badge-color: var(--quarto-body-color);
+    --bs-badge-bg: transparent;
+    color: var(--quarto-body-color) !important;
+    background-color: transparent !important;
+    border: 1px solid var(--quarto-border-color, #1527edff);
+    border-radius: 9999px;
+    padding: .12rem .50rem;
+    font-size: .85em;
+    text-decoration: none;
+    line-height: 1.2;
+}
+a.badge:hover { background: rgba(0,0,0,.04); }
+a.badge + a.badge { margin-left: .35rem; }
