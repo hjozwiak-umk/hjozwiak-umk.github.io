@@ -1,0 +1,23 @@
+---
+title: "Cold & Ultracold Collisions"
+bibliography: all_refs.bib
+csl: ieee.csl
+---
+
+A growing focus of my research is the quantum dynamics of molecules at very low temperatures, often in the presence of external fields. Recent years have witnessed incredible progress in cooling and trapping molecules, which hold huge potential for quantum simulation, quantum computing, and precision tests of physics beyond the Standard Model. My experience centers on prospects for cooling chemically stable species like molecular hydrogen, which present different challenges than more typical ultracold molecules like bialkalis.
+
+### Cryogenic Spectroscopy of H₂
+
+My first steps into the cold regime involved the collisional perturbation of optical resonances in a cryogenic environment. From a fundamental perspective, spectroscopy of cold molecules is beneficial because low temperatures suppress Doppler broadening. This was the primary motivation behind recent work on a new cryogenic setup used to measure molecular hydrogen spectra [@Stankiewicz_2025].
+
+At cryogenic conditions (~5K), the entire population of molecular hydrogen collapses into its ground rovibrational state. This work reported the most accurate Doppler-limited measurement of H₂ to date, allowing us to probe QED corrections to an unprecedented level. My role was to provide reference line-shape parameters that minimized systematic errors in fitting the cryogenic spectra. This setup also opens the door to probing other interesting cold H₂ physics, including shape resonances, which can be traced via spectroscopy.
+
+### Trapping Molecular Hydrogen
+
+The next frontier for H₂ is trapping. I am currently contributing to the **ERC Starting Grant H2TRAP project** (PI: Piotr Wcisło), which aims to trap the H₂ molecule using strong external fields. My work involves providing realistic estimates for the depth of potential optical dipole and magnetic traps and analyzing the mechanics of loading H₂ molecules into them.
+
+A key challenge in precision spectroscopy of trapped particles is the differential Stark shift: the ground and excited states of a molecule experience slightly different light shifts from the trapping laser. This leads to inhomogeneous broadening of the spectral line. To address this, we have proposed an analogue of the atomic **"magic wavelength"** for molecular hydrogen, associated with weak electric quadrupole transitions in the infrared. This concept, detailed in [@Jozwiak_2022b], brings hope for performing accurate spectroscopy of H₂ in optical dipole traps.
+
+### Sympathetic Cooling of H₂ with Lithium
+
+To push H₂ into the ultracold regime, we have also explored the feasibility of **sympathetic cooling**—using collisions with another species that is already ultracold. Given its similar mass, we considered sympathetically cooling H₂ with atomic lithium. In collaboration with Timur V. Tscherbul's group at the University of Nevada, Reno, we performed rigorous coupled-channel calculations for the Li-H₂ system, including hyperfine and magnetic field couplings. This work, described in [@Jozwiak_2024a], is a crucial theoretical step toward realizing this cooling scheme.

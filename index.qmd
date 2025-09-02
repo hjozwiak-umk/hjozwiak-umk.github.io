@@ -1,0 +1,49 @@
+---
+title: "Hubert J. Jóźwiak, Ph.D."
+---
+
+I'm a theoretical and computational physicist with a focus on spectroscopy and collisional dynamics. I use first-principles quantum scattering calculations to investigate collisions and interactions between simple atoms and molecules. The goal of my work is to provide ultra-accurate theoretical data that supports high-precision experiments and contributes to astrophysical and atmospheric models.
+
+Please explore my research interests below or get in touch via email.
+
+## Research areas
+
+::: {.grid cols="3" class="home-cards"}
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card}
+### Collisions & Line Shapes
+Quantum dynamics of molecular collisions and their effect on spectroscopic line shapes for astrophysical and atmospheric applications.
+[Learn more →](collisions.qmd)
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card}
+### Hyperfine Structure
+Theoretical determination of the hyperfine structure in molecular hydrogen and its isotopologues for tests of fundamental physics.
+[Learn more →](hyperfine.qmd)
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card}
+### Cold & Ultracold Collisions
+Investigating quantum dynamics at low temperatures and in external fields, paving the way for trapping and sympathetic cooling of molecular hydrogen.
+[Learn more →](ultracold.qmd)
+:::
+:::
+
+:::
+
+## News
+
+**June 2025** I'm excited to start a new position as a **Postdoctoral Research Associate** at Nicolaus Copernicus University, continuing my work within the ERC Starting Grant H2TRAP project.
+
+**May 2025** I successfully defended my **PhD thesis**, *Collisions of simple molecules and atoms in fundamental studies*, and was awarded the degree with honors from Nicolaus Copernicus University.
+
+**March 2025** Our paper on dispersive heterodyne cavity ring-down spectroscopy has been published in *Science Advances*! It was a pleasure to contribute to this work. [Press (PL)](https://www.fizyka.umk.pl/wiadomosci/?id=40809){.badge target=_blank rel=noopener}
+
+**January 2025** I'm thrilled to begin my new research project as a Principal Investigator on the *Collisional effects in exotic atom spectroscopy* project funded by the  National Science Center in Poland through the **PRELUDIUM** program. [Press (PL)](https://portal.umk.pl/pl/article/granty-ncn-dla-naszych-uczonych){.badge target=_blank rel=noopener} [Popular abstract (PL)](https://www.ncn.gov.pl/sites/default/files/listy-rankingowe/2024-03-15-oppr4giwi8/streszczenia/614458-pl.pdf){.badge target=_blank rel=noopener}
+
+**July 2024** I was honored to be selected as a Lindau Alumnus and participated in the *73rd Lindau Nobel Laureate Meeting*. A fantastic experience! [Press (PL)](https://www.fnp.org.pl/aktualnosci/laureatki-i-laureaci-programu-start-spotkaja-sie-z-noblistami-w-lindau){.badge target=_blank rel=noopener}

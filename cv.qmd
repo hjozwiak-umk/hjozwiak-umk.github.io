@@ -1,0 +1,266 @@
+---
+title: "Curriculum Vitae"
+bibliography: refs.bib
+csl: styles/hubert-numbered-manual.csl
+format:
+  html:
+    include-in-header:
+      text: |
+        <style>
+        /* More space beneath the page title */
+        #title-block-header { margin-bottom: 1.8rem; }
+
+        /* HERO CARD */
+        .cv-hero{
+        margin: 0 auto 1.25rem;
+        padding: 1rem 1.2rem;
+        max-width: 760px;
+        background: color-mix(in srgb, var(--bs-primary, #3b82f6) 6%, #fff);
+        border: 1px solid color-mix(in srgb, var(--bs-primary, #3b82f6) 30%, #d0d7de);
+        border-radius: 16px;
+        box-shadow: 0 6px 16px rgba(0,0,0,.06);
+        }
+        /* remove the top accent bar */
+        .cv-hero::before { content: none !important; }
+
+        .cv-hero .cv-name{ font-size:1.5rem; font-weight:700; text-align:center; margin:.1rem 0 .2rem; }
+        .cv-hero .subtitle{ text-align:center; color: var(--bs-secondary-color, #6c757d); margin-bottom:.35rem; }
+        .cv-hero .cv-contact{ text-align:center; margin-bottom:.45rem; }
+
+        /* icon row */
+        .cv-hero .icons{ text-align:center; margin-bottom: .45rem; }
+        .cv-hero .icons a{
+        display:inline-flex; align-items:center; justify-content:center;
+        width:34px; height:34px; margin:0 .22rem;
+        border:1px solid var(--quarto-border-color, #d0d7de);
+        border-radius:9999px; background:#fff;
+        }
+        .cv-hero .icons img, .cv-hero .icons svg{ width:18px; height:18px; }
+
+        /* new: research interests + snapshot inside card */
+        .cv-hero .interests{
+        text-align:center; font-size:.95rem; color: var(--bs-secondary-color, #6c757d);
+        margin-top:.35rem;
+        }
+        .cv-hero .chips{ text-align:center; margin-top:.45rem; }
+        .cv-hero .chips a.badge{
+        background:#fff !important;              /* nice contrast on tinted card */
+        border-color: var(--quarto-border-color, #d0d7de) !important;
+        }
+
+        /* OPTIONAL: center the page title */
+        /* Uncomment if you want it centered */
+        #title-block-header .title { 
+          text-align: center; 
+        }
+        </style>
+
+---
+
+::: {.cv-hero}
+<div class="cv-name">Hubert J. Jóźwiak</div>
+<div class="subtitle">Institute of Physics, Nicolaus Copernicus University in Toruń</div>
+<div class="cv-contact">
+  <a href="mailto:hubert.jozwiak@umk.pl">hubert.jozwiak@umk.pl</a>
+</div>
+
+<div class="icons">
+  <a href="https://scholar.google.pl/citations?user=ALjTWUAAAAAJ&hl=pl" target="_blank" rel="noopener" aria-label="Google Scholar">
+    <img src="assets/icons/scholar_logo.svg" alt="Google Scholar">
+  </a>
+  <a href="https://orcid.org/0000-0001-6503-674X" target="_blank" rel="noopener" aria-label="ORCID">
+    <img src="assets/icons/orcid_logo.svg" alt="ORCID">
+  </a>
+  <a href="https://github.com/hjozwiak-umk" target="_blank" rel="noopener" aria-label="GitHub">
+    <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+      <path d="M8 0a8 8 0 0 0-2.53 15.6c.4.07.55-.17.55-.38v-1.49c-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52 0-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+    </svg>
+  </a>
+</div>
+
+<div class="interests">
+  AMO physics • quantum scattering • molecular spectroscopy &amp; line shapes • numerical methods
+</div>
+
+<div class="chips">
+  <a class="badge" href="publications.html">31 publications</a>
+  <a class="badge" href="https://scholar.google.pl/citations?user=ALjTWUAAAAAJ&hl=pl" target="_blank" rel="noopener">400+ citations</a>
+  <a class="badge" href="#grants">2 funded proposals</a>
+  <a class="badge" href="#awards">6 awards</a>
+  <a class="badge" href="#talks">8 invited talks</a>
+  <a class="badge" href="#talks">9 contributed talks</a>
+</div>
+:::
+
+## Education
+
+**PhD in Physics (with honours)**, Institute of Physics, Nicolaus Copernicus University in Toruń (2025)
+:   Thesis: *Collisions of simple molecules and atoms in fundamental studies*  
+    Supervisor: Prof. dr hab. Piotr Wcisło
+
+**MSc in Physics**, Institute of Physics, Nicolaus Copernicus University in Toruń (2020)
+:   Thesis: *Hyperfine structure of molecular hydrogen*  
+    Supervisor: Prof. dr hab. Piotr Wcisło  
+    **Best Graduate of NCU (2020)**
+
+**BSc in Physics**, Institute of Physics, Nicolaus Copernicus University in Toruń (2018)
+:   Thesis: *Ab initio calculations of generalized spectroscopic cross-sections*  
+    Supervisor: Prof. dr hab. Piotr Wcisło  
+    **Best Graduate of NCU (2018)**
+
+## Appointments
+
+**Postdoctoral Research Associate**, Institute of Physics, NCU Toruń (Jun 2025–present)
+:   ERC Starting Grant **H2TRAP** — PI: Prof. Piotr Wcisło
+
+**Engineering Technical Specialist**, Institute of Physics, NCU Toruń (Oct 2024–May 2025)
+:   ERC Starting Grant **H2TRAP** — PI: Prof. Piotr Wcisło
+
+## Grants & Funding {#grants}
+
+**Principal Investigator**, *Collisional effects in exotic atom spectroscopy: ab initio calculations for fundamental physics test* (Jan 2025–Jan 2028)
+:   National Science Centre (Poland), **PRELUDIUM**, ~$31,300  [Press (PL)](https://portal.umk.pl/pl/article/granty-ncn-dla-naszych-uczonych){.badge target=_blank rel=noopener} [Popular abstract (PL)](https://www.ncn.gov.pl/sites/default/files/listy-rankingowe/2024-03-15-oppr4giwi8/streszczenia/614458-pl.pdf){.badge target=_blank rel=noopener}
+
+**Principal Investigator**, *Collisional effects in the hyperfine structure of molecular hydrogen – a fundamental problem of modern molecular spectroscopy* (Sep 2019–Sep 2023)
+:   Polish Ministry of Science and Higher Education, **Diamentowy Grant**, ~$46,000 [Press (PL)](https://www.fizyka.umk.pl/wiadomosci/?id=4343){.badge target=_blank rel=noopener}
+
+## Awards & Scholarships {#awards}
+
+Selected as a Lindau Alumnus to participate in the **Lindau Nobel Laureate Meeting 2024** [Press (PL)](https://www.fnp.org.pl/aktualnosci/laureatki-i-laureaci-programu-start-spotkaja-sie-z-noblistami-w-lindau){.badge target=_blank rel=noopener}
+
+**START Stipend**, Foundation for Polish Science (2023–2024) [Press (PL)](https://www.fizyka.umk.pl/wiadomosci/?id=30174){.badge target=_blank rel=noopener}
+
+**Best Graduate of the Nicolaus Copernicus University** (2020) [Press (PL)](https://absolwent.umk.pl/abs/najlepsi-absolwenci-umk/?id=19365){.badge target=_blank rel=noopener}
+
+**Minister of Science and Higher Education scholarship** for students with outstanding scientific achievements — three times (2017, 2018, 2019)
+
+**Golden Medal of Chemistry** for the best BSc theses in chemistry defended in 2018 [Press (PL)](https://torun.wyborcza.pl/torun/7,48723,24261797,student-umk-ze-zlotym-medalem-chemii.html){.badge target=_blank rel=noopener}
+
+**Best Graduate of the Nicolaus Copernicus University** (2018) [Press (PL)](https://absolwent.umk.pl/abs/najlepsi-absolwenci-umk/?id=4348){.badge target=_blank rel=noopener}
+
+## Publications (selected)
+
+::: {style="display:none"}
+[@Cygan_2025; @Jozwiak_2024c; @Jozwiak_2024b; @Jozwiak_2024a; @Jozwiak_2022b]
+:::
+
+::: {#refs}
+:::
+
+See the [Publications](publications.html) page for the full list.
+
+## Talks
+
+### Invited {#invited_talks}
+
+**Towards efficient, low-scaling algorithms for quantum scattering in astrochemical applications**
+: Physical and Chemical Processes of Astrophysical Interest: Astrochemistry at the JWST era Workshop, Saint-Florent, France — **9 Jun 2024**
+
+**Collisions of simple molecules and atoms in fundamental studies**
+: Theoretical & Computational Chemistry Group Seminar, Radboud University, Nijmegen, Netherlands — **18 Nov 2024**
+
+**Collisions of simple molecules and atoms in fundamental studies**
+: Department of Chemistry & Biochemistry Seminar, University of Nevada, Las Vegas, USA — **11 Oct 2024**
+
+**Quantum scattering calculations and molecular spectroscopy for fundamental studies**
+: Seminar, Molecular Physics Department, Université de Rennes 1, Rennes, France — **18 Jul 2023**
+
+**Ab initio calculations of collisional effects in molecular spectra**
+: Workshop on collisional excitation of (reactive) astrophysical molecules and its applications, Saint-Florent, France — **14 Jun 2022**
+
+**Quantum scattering calculations for accurate molecular spectroscopy**
+: 2nd Symposium on Cold Interactions and Collisions, NCU Toruń, Poland — **19 Nov 2021**
+
+**The ground-state hyperfine structure of all hydrogen isotopologues**
+: 2nd Online Workshop on Precision Spectroscopy of Molecular Hydrogen — **8 Jun 2021**
+
+**Applications of accurate molecular spectra to studies of molecular collisions and interactions**
+: Optical Seminar, University of Warsaw, Poland — **26 Nov 2020**
+
+### Contributed {#contirbuted_talks}
+
+**Cold molecular hydrogen**
+: Ultracold Molecules Workshop — **26 Jun 2025**
+
+**Cold and ultracold collisions of molecular hydrogen**
+: 55th APS DAMOP Meeting, Fort Worth, USA — **4 Jun 2024**
+
+**Quantum scattering calculations for accurate modeling of collision-perturbed molecular spectra**
+: 28th Colloquium on High Resolution Molecular Spectroscopy, Dijon, France — **29 Aug 2023**
+
+**Ab initio quantum scattering calculations for modeling collision-perturbed molecular spectra**
+: 54th APS DAMOP Meeting, Spokane, USA — **6 Jun 2023**
+
+**Quantum scattering calculations in diatom–diatom systems for accurate description of molecular resonance shapes**
+: 26th International Conference on High Resolution Molecular Spectroscopy, Prague, Czech Republic — **31 Aug 2022**
+
+**Hyperfine structure of excited electronic states in molecular hydrogen**
+: 11th International Conference on Precision Physics of Simple Atomic Systems (PSAS 2022), Warsaw, Poland — **17 May 2022**
+
+**Hyperfine structure of molecular hydrogen**
+: 52nd APS DAMOP Meeting (virtual) — **3 Jun 2021**
+
+**Application of accurate molecular spectra for studying molecular collisions and interactions**
+: 51nd APS DAMOP Meeting (virtual) — **4 Jun 2020**
+
+**Line-shape parameters from first principles: S and O branches in the H₂–He system**
+: 25th International Conference on High Resolution Molecular Spectroscopy, Bilbao, Spain — **4 Sep 2018**
+
+
+## Teaching & Mentoring
+
+**Teaching interests**
+:   Atomic, Molecular and Optical Physics • Quantum scattering theory • Molecular spectroscopy • Line-shape theory • Numerical methods in physics • Python/Fortran for scientific computing • HPC/Slurm workflows
+
+**Courses & instruction**
+:   **Statistics and Probability**, exercise class instructor (tutorial/recitation)  
+    Institute of Physics, NCU Toruń (Summer 2022/23)  
+    Led weekly exercise classes accompanying the lecture; prepared problem sets; graded; office hours.  
+    [Syllabus](https://usosweb.umk.pl/kontroler.php?_action=katalog2%2Fprzedmioty%2FpokazPrzedmiot&kod=0800-STRAP&lang=en){.pill-link target=_blank rel=noopener}
+
+**Supervision & mentoring**
+:   **Auxiliary PhD supervisor (from Oct 2025)** — *Artur Olejnik* (MSc)  
+    **Host unit:** Institute of Physics, Nicolaus Copernicus University in Toruń (NCU), Poland.  
+    **Primary supervisor:** Prof. dr hab. Piotr Wcisło.  
+    **PhD project title:** *Structure of the simplest molecular complexes: accurate quantum mechanical calculations at the frontier of molecular physics and chemistry*.
+
+:   **Summer school project (Jul–Aug 2025)** — *Ricardo Campos* — co-supervised with *Michał Żółtowski*  
+    **School:** Toruń Students Summer Program in Exact Sciences, NCU Toruń, Poland.  
+    **Topic:** *Toward New Radiative Transfer Modeling*  
+    [ExSci 2025 – school](https://tssp.umk.pl/exsci/index.html){.badge target=_blank rel=noopener}
+    [Project abstract](https://tssp.umk.pl/exsci/topics.html#ph_towa){.badge target=_blank rel=noopener}
+    [Press (EN)](https://portal.umk.pl/en/article/international-summer-with-science){.badge target=_blank rel=noopener}
+    [Press (PL)](https://portal.umk.pl/pl/article/miedzynarodowe-lato-z-naukami-scislymi-1){.badge target=_blank rel=noopener}
+
+:   **Informal mentoring (2019–present)** — onboarding BSc/MSc students in Piotr Wcisło’s group to quantum-scattering and line-shape calculations; regular code/help sessions (Fortran, Python, Slurm, Git).  
+    Mentees: **Kamil Stankiewicz** *(mentored during BSc)*; **Maciej Gancewski** *(mentored during BSc)*; **Adam Zadrożny** *(mentored during BSc)*; **Artur Olejnik** *(mentored during BSc and MSc)*; plus **2 current BSc students** *(ongoing)*.
+
+## Skills
+
+**Programming**
+:   **Python** (scientific computing, automation, data processing)  
+**Fortran 77/90/95+** (scientific computing), **Bash** (shell scripting)
+
+**HPC**
+:   **Slurm** workload manager (job arrays, dependencies, resource requests); running and monitoring large batches on clusters; basic profiling and job debugging
+
+**Reproducibility & tooling**
+:   **Git/GitHub** (daily), **Quarto/Markdown** for docs & websites  
+
+**Scientific typesetting**
+:   **LaTeX**; preparing publication-quality figures
+
+**Operating systems**
+:   Linux (primary), macOS
+
+**Languages**
+:   Polish — **native**; English — **fluent**
+
+
+## Service
+- Reviewed 7 scientific articles for journals, including  *Nature* (2024), *J. Quant. Spectrosc. Radiat. Transf.* (2023–2025), *J. Electron. Mater.* (2023),  *Acta Phys. Pol. A* (2022), and *Sci. Rep.* (2022).
+
+## Outreach activities
+- **University Open Days: Q&A with PhD students**, Nicolaus Copernicus University (24 Apr 2021)
+- **Popular science talk** – the Opening Lecture of the academic year 2020/2021 at the Faculty of Physics, Astronomy and Informatics, Nicolaus Coper (6 Oct 2020)
+- **Popular science talk** for the Association of Astronomy Students, Faculty of Physics, Astronomy and Informatics, Nicolaus Coper (20 Mar 2018)

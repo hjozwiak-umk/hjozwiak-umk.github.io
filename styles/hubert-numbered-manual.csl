@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="in-text">
+  <info>
+    <title>Manual order, numbered</title>
+    <id>http://example.org/styles/hubert-numbered-manual</id>
+    <updated>2025-08-14</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</rights>
+  </info>
+
+  <macro name="author">
+    <names variable="author">
+      <name name-as-sort-order="first" and="text" initialize-with="." delimiter=", "/>
+      <label form="short" prefix=" (" suffix=")"/>
+      <substitute>
+        <names variable="editor"/>
+        <text variable="container-title"/>
+      </substitute>
+    </names>
+  </macro>
+
+  <macro name="issued"><date variable="issued"><date-part name="year"/></date></macro>
+  <macro name="title"><text variable="title"/></macro>
+  <macro name="container">
+    <group delimiter=" ">
+      <text variable="container-title" font-style="italic"/>
+      <group>
+        <text variable="volume" prefix=" " font-weight="bold"/>
+        <text variable="issue" prefix="(" suffix=")"/>
+      </group>
+      <text variable="page" prefix=", "/>
+    </group>
+  </macro>
+  <macro name="id">
+    <group delimiter=" ">
+      <text variable="DOI" prefix="https://doi.org/"/>
+      <text variable="URL"/>
+    </group>
+  </macro>
+
+  <!-- No <sort> here → use citation order (i.e., your nocite list order) -->
+  <bibliography hanging-indent="true">
+    <layout>
+      <text variable="citation-number" prefix="[" suffix="] "/>
+      <group delimiter=". ">
+        <group delimiter=", ">
+          <text macro="author"/>
+          <text macro="issued"/>
+          <text macro="title"/>
+        </group>
+        <text macro="container"/>
+        <text macro="id"/>
+      </group>
+    </layout>
+  </bibliography>
+
+  <citation collapse="citation-number">
+    <layout delimiter=", ">
+      <text variable="citation-number"/>
+    </layout>
+  </citation>
+</style>

@@ -1,0 +1,36 @@
+---
+title: "Research"
+---
+
+My research is at the intersection of molecular physics, spectroscopy, and collisional dynamics. I specialize in using first-principles (**ab initio**) quantum scattering calculations to model collisions between simple atoms and molecules, and how such collisions manifest in the perturbation of spectral lines. The primary goal is to provide ultra-accurate theoretical data to support and interpret high-precision experiments, with applications ranging from tests of fundamental physics to the modeling of planetary atmospheres and astrophysical environments.
+
+Apart from dynamics, part of my research is focused on molecular structure. I am particularly interested in how subtle interactions, such as hyperfine couplings, or interactions with external electric and magnetic fields, influence rovibrational levels of simple molecules. The problem of hyperfine structure has gained my attention at some point in the context of precision spectroscopy of molecular hydrogen. In the context of fields, I study how external electric and magnetic fields can be used to our benefit in fundamental studies: cooling, trapping and using particular laser wavelengths to reduce systematic effects in spectroscopy of trapped molecules.
+
+---
+::: {.grid cols="3" class="home-cards"}
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card}
+### Collisions & Line Shapes
+Quantum dynamics of molecular collisions and their effect on spectroscopic line shapes for astrophysical and atmospheric applications.  
+[Learn more →](collisions.qmd)
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card}
+### Hyperfine Structure
+Theoretical determination of the hyperfine structure in molecular hydrogen and its isotopologues for tests of fundamental physics.  
+[Learn more →](hyperfine.qmd)
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card}
+### Cold & Ultracold Collisions
+Investigating quantum dynamics at low temperatures and in external fields, paving the way for trapping and sympathetic cooling of molecular hydrogen.  
+[Learn more →](ultracold.qmd)
+:::
+:::
+
+:::

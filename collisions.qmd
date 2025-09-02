@@ -1,0 +1,40 @@
+---
+title: "Collisions & Spectroscopic Line Shapes"
+bibliography: all_refs.bib
+csl: ieee.csl
+---
+
+A central theme of my work is understanding how collisions between particles perturb a molecule's spectrum. In the simplest picture, collisions cause a spectral line to broaden and shift, resulting in a Lorentzian shape. In reality, this is just one piece of the puzzle. The thermal motion of molecules also causes Doppler broadening, and a widely-used approach that combines these two statistically independent effects leads to the common **Voigt profile**.
+
+However, for applications in remote sensing, high-precision laboratory science, and astrophysics, the Voigt profile is often insufficient. A series of more subtle phenomena, collectively referred to as beyond-Voigt effects, become important. These include fascinating effects like the *Dicke narrowing* of spectral lines or *inhomogeneous broadening* caused by the speed-dependence of collisional shifting [@Hartmann_2021].
+
+## Interpreting high-resolution spectra
+Beyond-Voigt effects pose a serious challenge for interpreting experimental spectra. While many phenomenological line-shape models exist, several different models can often fit an observed spectrum equally well, hindering a clear physical interpretation.
+
+Fortunately, it's possible to compute the entire spectral line shape from first principles. Building on foundational work in quantum kinetic theory, a robust theoretical framework now exists [@Tip_1971; @Hess_1972; @Monchick_1986; @Monchick_1994]. This framework connects the complex collision operator, which governs the line shape, directly to the scattering *S*-matrix—a quantity that can be calculated using time-independent quantum scattering theory.
+
+This provides a powerful pathway: we can generate reference line-shape parameters from first principles, without adjusting any parameters to match experiments. My work focuses on providing these reference parameters for atmospherically and astrophysically relevant systems, enabling more accurate analysis of spectra and contributing to large databases like HITRAN.
+
+## From theory to practice: the BIGOS code
+
+The process begins with an *ab initio* potential energy surface (PES) for a given scattering system and involves solving the close-coupling equations of quantum scattering. While working in Piotr Wcisło's group, I contributed to the first benchmark calculations for H₂-He and HD-He, which led to the first purely ab initio database of collisional line-shape parameters [@Wcislo_2021; @Stankiewicz_2021].
+
+As we expanded this work to atmospherically-relevant molecules at room temperature, we quickly hit the limits of computational feasibility [@Jozwiak_2021a]. To tackle this complexity and experiment with more efficient methods, our group developed our own quantum scattering code: BIGOS.
+
+The heart of the package, SCATTERING, solves the close-coupling equations in the body-fixed frame of reference [@Jozwiak_2024_code; @Jozwiak_2024b]. This, along with features like dynamic memory allocation, allowed us to push the boundaries of what was possible. In the following years, our group successfully tackled O₂-perturbed transitions in CO [@Zadrozny_2022] and HCl [@Olejnik_2023], and N₂-perturbed transitions in O₂ [@Gancewski_2021], all with remarkable agreement with experimental data. We are currently working on a more user-friendly Python version of the package.
+
+## Applications in Fundamental Physics
+This high-accuracy theoretical work is also essential for high-precision spectroscopic measurements.
+
+**Molecular Hydrogen:** H₂ is the simplest neutral molecule, and its energy structure can be calculated with incredible precision using molecular quantum electrodynamics (QED). Experimental validation of these calculations not only tests QED but can also be used to constrain beyond-Standard-Model physics. My work has provided reference line-shape parameters for H₂ and its isotopologues, ensuring that collisional effects do not limit the accuracy of these fundamental experiments [@Zaborowski_2020; @Lamperti_2023; @Cygan_2025; @Stankiewicz_2025].
+
+**Exotic Helium Atoms:** Another fascinating application is in the spectroscopy of exotic helium atoms, where an electron is replaced by a heavier particle, such as an antiproton. Accurate spectroscopy of antiprotonic helium is used to determine the antiproton-to-electron mass ratio, which provides a stringent test of the fundamental Charge, Parity, and Time (CPT) symmetry of the Standard Model.
+
+::: {.callout-note icon="false"}
+##### Funded Research: PRELUDIUM Grant
+These exotic atoms are studied in helium buffers, meaning their spectra also suffer from collision-induced shifts and broadenings. In January 2025, I began a project to provide the best theoretical estimates for these parameters as the Principal Investigator of a **PRELUDIUM 23 grant** from the National Science Center in Poland.
+
+* **Project Title:** *Collisional effects in exotic atom spectroscopy: ab initio calculations for fundamental physics test* 
+* **Funding:** ~$31,000 [cite: 42]
+* **Duration:** 2025–2028 [cite: 40]
+:::

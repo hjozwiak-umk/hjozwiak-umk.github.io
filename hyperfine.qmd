@@ -1,0 +1,36 @@
+---
+title: "Hyperfine Structure of Molecular Hydrogen"
+bibliography: all_refs.bib
+csl: ieee.csl
+---
+
+My research focuses on the fine details of molecular structure, specifically the interactions involving nuclear spins, which are collectively referred to as *hyperfine couplings*. In molecules, these interactions cause rovibrational energy levels to split, which appears in high-resolution spectra as closely-spaced groups of additional lines.
+
+## The Motivation: A High-Precision Puzzle
+This topic gained my attention following the incredible progress in high-precision spectroscopy of molecular hydrogen over the last decade. The problem came to a head in 2018, when research groups in Amsterdam and Hefei independently measured the same rovibrational transition in the deuterated hydrogen isotopologue, HD [@Tao_2018; @Cozijn_2018].
+
+Intriguingly, their results for the transition frequency differed by nearly ten times the combined experimental uncertainty. This sparked a discussion about the possible origins of the discrepancy. A key question emerged regarding the experimental treatment of the unresolved hyperfine structure of the transition, as the spectral line widths were already on the same order as the expected hyperfine splittings.
+
+## A Complete Theoretical Dataset
+To resolve this and provide a crucial reference for future experiments, my collaborators and I calculated the positions and intensities of individual hyperfine components for all rovibrational transitions in H₂ and its five isotopologues (D₂, HD, HT, DT, T₂) [@Jozwiak_2020a; @Jozwiak_2020b; @Jozwiak_2020c; @Jozwiak_2021b; @Jozwiak_2021c]. This work produced the first complete theoretical dataset for the hyperfine structure of hydrogen. The data allows experimentalists to reduce systematic errors in measurements that test molecular quantum electrodynamics (QED) and search for new physics beyond the Standard Model.
+
+This theoretical work was recently put to the test and confirmed by the Amsterdam group. First, they detected an isolated hyperfine component in the tritiated isotopologue, HT, whose favorable structure features a single strong component set apart from the others [@Cozijn_2024]. More recently, they resolved the individual hyperfine components of a transition in the H₂ molecule itself, finding them spread symmetrically around the line center [@Diouf_2024].
+
+## Data Availability
+The results of this campaign are available as accessible tables in the Supplementary Materials of the corresponding papers. For each isotopologue and vibrational band, these files contain:
+
+- Absolute line positions from the H2SPECTRE code [@H2Spectre; @Komasa_2019].
+- Individual hyperfine components and their splittings.
+- Absolute line intensities and intensities at a reference temperature of 296 K.
+
+A comprehensive list of the energy level splittings for all six isotopologues is also provided as a Supplementary Material to [@Jozwiak_2021c] and can be accessed via this [link](https://data.mendeley.com/datasets/79dppwdw4f/1).
+
+::: {.callout-note icon="false"}
+#### Funded Research: Diamentowy Grant
+
+Much of my foundational work in this area was supported by the **"Diamentowy Grant"** from the Polish Ministry of Science and Higher Education.
+
+* **Project Title:** *Collisional effects in the hyperfine structure of molecular hydrogen – a fundamental problem of modern molecular spectroscopy* [cite: 43]
+* **Funding:** ~$46,000 [cite: 43]
+* **Duration:** 2019–2023 [cite: 41, 43]
+:::

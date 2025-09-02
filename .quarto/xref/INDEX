@@ -1,0 +1,26 @@
+{
+  "index.qmd": {
+    "index.html": "cfa06bbf"
+  },
+  "about.qmd": {
+    "about.html": "6dd96c96"
+  },
+  "publications.qmd": {
+    "publications.html": "1206b1ea"
+  },
+  "cv.qmd": {
+    "cv.html": "a524a429"
+  },
+  "research.qmd": {
+    "research.html": "7630af96"
+  },
+  "collisions.qmd": {
+    "collisions.html": "96d48e3e"
+  },
+  "hyperfine.qmd": {
+    "hyperfine.html": "43590cc0"
+  },
+  "ultracold.qmd": {
+    "ultracold.html": "0f25d7f1"
+  }
+}

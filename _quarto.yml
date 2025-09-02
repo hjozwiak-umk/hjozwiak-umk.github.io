@@ -1,0 +1,64 @@
+project:
+  type: website
+  resources:
+    - assets/**
+
+website:
+  title: "Hubert J. Jóźwiak"
+  navbar:
+    title: false
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: cv.qmd
+        text: CV
+      - href: publications.qmd
+        text: Publications
+      #- href: posts/index.qmd
+      #  text: Notes
+    right:
+      - icon: github
+        href: https://github.com/hjozwiak-umk
+        target: _blank
+      # Use relative paths for your SVGs (no leading slash)
+      - text: "<img src='assets/icons/scholar_logo.svg' alt='Scholar' style='height:18px;vertical-align:middle'>"
+        href: https://scholar.google.pl/citations?user=ALjTWUAAAAAJ&hl=pl
+        target: _blank
+      - text: "<img src='assets/icons/orcid_logo.svg' alt='ORCID' style='height:18px;vertical-align:middle'>"
+        href: https://orcid.org/0000-0001-6503-674X
+        target: _blank
+
+  sidebar:
+    - id: hubert
+      style: docked
+      background: light
+      logo: assets/img/hubert.jpeg
+      contents:
+        - text: "Hubert J. Jóźwiak, Ph.D."
+          href: index.qmd
+        # ↓ force line breaks with <br>
+        - text: "<span class='sidebar-blurb'>
+                 Postdoctoral Research Associate<br>
+                 Institute of Physics, Nicolaus Copernicus University in Toruń
+                 </span>"
+        - text: "---"
+        - text: Email
+          icon: envelope
+          href: "mailto:hubert.jozwiak@umk.pl"
+        - text: GitHub
+          icon: github
+          href: "https://github.com/hjozwiak-umk"
+        - text: "<img src='assets/icons/scholar_logo.svg' style='height:16px;vertical-align:middle'> Google Scholar"
+          href: "https://scholar.google.pl/citations?user=ALjTWUAAAAAJ&hl=pl"
+        - text: "<img src='assets/icons/orcid_logo.svg' style='height:16px;vertical-align:middle'> ORCID"
+          href: "https://orcid.org/0000-0001-6503-674X"
+
+format:
+  html:
+    theme: default
+    toc: true
+    lang: en
+    encoding: utf-8
+    css: styles.css
