@@ -27,10 +27,13 @@ A comprehensive list of the energy level splittings for all six isotopologues is
 
 ::: {.callout-note icon="false"}
 #### Funded Research: Diamentowy Grant
+Much of my foundational work in this area was supported by the **"Diamentowy Grant"** program funded by the Polish Ministry of Science and Higher Education.
 
-Much of my foundational work in this area was supported by the **"Diamentowy Grant"** from the Polish Ministry of Science and Higher Education.
+* **Project Title:** *Collisional effects in the hyperfine structure of molecular hydrogen – a fundamental problem of modern molecular spectroscopy*
+* **Funding:** ~$46,000
+* **Duration:** 2019–2023
 
-* **Project Title:** *Collisional effects in the hyperfine structure of molecular hydrogen – a fundamental problem of modern molecular spectroscopy* [cite: 43]
-* **Funding:** ~$46,000 [cite: 43]
-* **Duration:** 2019–2023 [cite: 41, 43]
+::: {.text-center}
+![](assets/icons/dg_logo.png){width="300"}
+:::
 :::

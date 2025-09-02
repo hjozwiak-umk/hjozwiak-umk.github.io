@@ -34,7 +34,11 @@ This high-accuracy theoretical work is also essential for high-precision spectro
 ##### Funded Research: PRELUDIUM Grant
 These exotic atoms are studied in helium buffers, meaning their spectra also suffer from collision-induced shifts and broadenings. In January 2025, I began a project to provide the best theoretical estimates for these parameters as the Principal Investigator of a **PRELUDIUM 23 grant** from the National Science Center in Poland.
 
-* **Project Title:** *Collisional effects in exotic atom spectroscopy: ab initio calculations for fundamental physics test* 
-* **Funding:** ~$31,000 [cite: 42]
-* **Duration:** 2025–2028 [cite: 40]
+* **Project Title:** *Collisional effects in exotic atom spectroscopy: ab initio calculations for fundamental physics test*
+* **Funding:** ~$31,000
+* **Duration:** 2025–2028
+
+::: {.text-center}
+![](assets/icons/ncn_logo.png){width="450"}
+:::
 :::
