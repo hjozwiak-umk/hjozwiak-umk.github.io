@@ -7,7 +7,7 @@ link-citations: true
 
 <!-- Hidden “ordering” citations: these set the order but are not shown -->
 ::: {style="display:none"}
-[@Stankiewicz_2025; @Wcislo_2025; @Tonolo_2025; @Gancewski_2025; @Cygan_2025; @Jozwiak_2024c; @Jozwiak_2024b; @Jozwiak_2024a; @Olejnik_2023; @Lamperti_2023; @Jozwiak_2023; @Jozwiak_2022b; @Jozwiak_2022a; @Slowinski_2022; @Zadrozny_2022; @Gancewski_2021; @Jozwiak_2021d; @Jozwiak_2021c; @Jozwiak_2021b; @Jozwiak_2021a; @Paredes_Roibas_2021; @Stankiewicz_2021; @Wcislo_2021; @Jozwiak_2020c; @Jozwiak_2020b; @Jozwiak_2020a; @Slowinski_2020; @Stankiewicz_2020; @Stolarczyk_2020; @Wojtewicz_2020; @Zaborowski_2020; @Jozwiak_2018; @Thibault_2017]
+[@Jozwiak_2025; @Adkins_2025; @Wcislo_2025; @Stankiewicz_2025; @Tonolo_2025; @Gancewski_2025; @Cygan_2025; @Jozwiak_2024c; @Jozwiak_2024b; @Jozwiak_2024a; @Olejnik_2023; @Lamperti_2023; @Jozwiak_2023; @Jozwiak_2022b; @Jozwiak_2022a; @Slowinski_2022; @Zadrozny_2022; @Gancewski_2021; @Jozwiak_2021d; @Jozwiak_2021c; @Jozwiak_2021b; @Jozwiak_2021a; @Paredes_Roibas_2021; @Stankiewicz_2021; @Wcislo_2021; @Jozwiak_2020c; @Jozwiak_2020b; @Jozwiak_2020a; @Slowinski_2020; @Stankiewicz_2020; @Stolarczyk_2020; @Wojtewicz_2020; @Zaborowski_2020; @Jozwiak_2018; @Thibault_2017]
 :::
 
 <!-- Single bibliography rendered here, numbered via the CSL -->

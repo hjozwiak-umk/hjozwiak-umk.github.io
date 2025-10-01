@@ -41,12 +41,12 @@ website:
         # ↓ force line breaks with <br>
         - text: "<span class='sidebar-blurb'>
                  Postdoctoral Research Associate<br>
-                 Institute of Physics, Nicolaus Copernicus University in Toruń
+                 Radboud University, Nijmegen, The Netherlands
                  </span>"
         - text: "---"
         - text: Email
           icon: envelope
-          href: "mailto:hubert.jozwiak@umk.pl"
+          href: "mailto:hubert.jozwiak@ru.nl"
         - text: GitHub
           icon: github
           href: "https://github.com/hjozwiak-umk"

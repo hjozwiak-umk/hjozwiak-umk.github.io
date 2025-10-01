@@ -59,9 +59,10 @@ format:
 
 ::: {.cv-hero}
 <div class="cv-name">Hubert J. Jóźwiak</div>
+<div class="subtitle">Institute for Molecules and Materials, Radboud University, Nijmegen</div>
 <div class="subtitle">Institute of Physics, Nicolaus Copernicus University in Toruń</div>
 <div class="cv-contact">
-  <a href="mailto:hubert.jozwiak@umk.pl">hubert.jozwiak@umk.pl</a>
+  <a href="mailto:hubert.jozwiak@ru.nl">hubert.jozwiak@ru.nl</a>, <a href="mailto:hubert.jozwiak@umk.pl">hubert.jozwiak@umk.pl</a>
 </div>
 
 <div class="icons">
@@ -83,7 +84,7 @@ format:
 </div>
 
 <div class="chips">
-  <a class="badge" href="publications.html">31 publications</a>
+  <a class="badge" href="publications.html">33 publications</a>
   <a class="badge" href="https://scholar.google.pl/citations?user=ALjTWUAAAAAJ&hl=pl" target="_blank" rel="noopener">400+ citations</a>
   <a class="badge" href="#grants">2 funded proposals</a>
   <a class="badge" href="#awards">6 awards</a>
@@ -110,7 +111,13 @@ format:
 
 ## Appointments
 
-**Postdoctoral Research Associate**, Institute of Physics, NCU Toruń (Jun 2025–present)
+**Postdoctoral Research Associate**, Radboud University, Nijmegen (Oct 2025–present)
+:   Advisor: Dr. Tijs Karman.
+
+**Research Associate**, Institute of Physics, NCU Toruń (Oct 2025–present)
+:
+
+**Postdoctoral Research Associate**, Institute of Physics, NCU Toruń (Jun 2025–Sep 2025)
 :   ERC Starting Grant **H2TRAP** — PI: Prof. Piotr Wcisło
 
 **Engineering Technical Specialist**, Institute of Physics, NCU Toruń (Oct 2024–May 2025)
